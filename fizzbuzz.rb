@@ -5,8 +5,6 @@ def fizzbuzz(fish)
     puts "Fizz"
   elsif fish % 5 == 0
     puts "Buzz" 
-  else
-    puts "fish"
   end
 end
 fizzbuzz(15)
