@@ -6,7 +6,7 @@ def fizzbuzz(fish)
   elsif fish % 5 == 0
     return "Buzz"
   else
-    return nil
+    return "fish"
   end
 end
 fizzbuzz(15)
