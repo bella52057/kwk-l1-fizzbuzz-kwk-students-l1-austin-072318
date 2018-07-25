@@ -1,10 +1,10 @@
 def fizzbuzz(fish)
   if fish %3 == 0 && fish %5 == 0 
-    puts "fizzbuzz"
+    puts "Fizzbuzz"
   elsif fish %3 == 0 
-    puts "fizz"
+    puts "Fizz"
   elsif fish %5 == 0
-    puts "buzz" 
+    puts "Buzz" 
   else
     puts "fish"
   end
